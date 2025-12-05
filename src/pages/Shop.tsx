@@ -21,7 +21,7 @@ const Shop = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-slide-up">
-              Every Tee. One Price.{' '}
+              Every Polo. One Price.{' '}
               <span className="text-gradient">Infinite Value.</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-4 animate-slide-up" style={{ animationDelay: '0.1s' }}>
@@ -78,7 +78,7 @@ const Shop = () => {
                 Own the Drip. <span className="text-gradient">Grow the Life.</span>
               </h2>
               <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
-                Every tee at ₹999 comes with access to our tribe perks. It's not just fashion — it's a movement.
+                Every polo at ₹999 comes with access to our tribe perks. It's not just fashion — it's a movement.
               </p>
               <Link to="/about">
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">

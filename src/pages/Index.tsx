@@ -11,7 +11,7 @@ const Index = () => {
     {
       icon: <Sparkles className="w-8 h-8" />,
       title: "Premium Quality",
-      description: "Every tee crafted with premium fabrics for lasting comfort and style."
+      description: "Every polo crafted with premium fabrics for lasting comfort and style."
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -59,7 +59,7 @@ const Index = () => {
 
             {/* Body */}
             <p className="text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              We believe every outfit should do more than look good — it should do good for you. At Dripzy Life, every purchase makes you part of a growing circle of creators, doers, and dreamers. Buy your first T-Shirt, get rewarded through referrals, and grow with our community perks — all while staying effortlessly stylish.
+              We believe every outfit should do more than look good — it should do good for you. At Dripzy Life, every purchase makes you part of a growing circle of creators, doers, and dreamers. Buy your first Polo, get rewarded through referrals, and grow with our community perks — all while staying effortlessly stylish.
             </p>
 
             {/* CTA */}
@@ -91,7 +91,7 @@ const Index = () => {
               Fresh <span className="text-gradient">Drops</span>
             </h2>
             <p className="text-muted-foreground max-w-lg mx-auto">
-              Curated collection of premium tees designed for those who live bold and stay grounded.
+              Curated collection of premium polos designed for those who live bold and stay grounded.
             </p>
           </div>
 
@@ -157,7 +157,7 @@ const Index = () => {
                 Ready to Join the <span className="text-gradient">Movement?</span>
               </h2>
               <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-                Get your first Dripzy tee at just ₹999 and unlock exclusive tribe perks. The drip starts here.
+                Get your first Dripzy polo at just ₹999 and unlock exclusive tribe perks. The drip starts here.
               </p>
               <Link to="/shop">
                 <Button size="lg" className="btn-glow font-bold">
