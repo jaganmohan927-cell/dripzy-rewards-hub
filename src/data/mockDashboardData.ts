@@ -38,8 +38,8 @@ export const mockOrders: Order[] = [
     id: 'ORD001',
     date: '2025-12-01',
     items: [
-      { name: 'Midnight Drip Tee', size: 'L', quantity: 1, price: 999 },
-      { name: 'Golden Hour Oversized', size: 'M', quantity: 1, price: 999 }
+      { name: 'Midnight Drip Polo', size: 'L', quantity: 1, price: 999 },
+      { name: 'Golden Hour Polo', size: 'M', quantity: 1, price: 999 }
     ],
     total: 1998,
     status: 'Delivered',
@@ -49,7 +49,7 @@ export const mockOrders: Order[] = [
     id: 'ORD002',
     date: '2025-12-03',
     items: [
-      { name: 'Shadow Wave Tee', size: 'XL', quantity: 2, price: 999 }
+      { name: 'Shadow Wave Polo', size: 'XL', quantity: 2, price: 999 }
     ],
     total: 1998,
     status: 'Shipped',
@@ -59,7 +59,7 @@ export const mockOrders: Order[] = [
     id: 'ORD003',
     date: '2025-12-05',
     items: [
-      { name: 'Urban Phantom Tee', size: 'M', quantity: 1, price: 999 }
+      { name: 'Urban Phantom Polo', size: 'M', quantity: 1, price: 999 }
     ],
     total: 999,
     status: 'Processing'
@@ -95,7 +95,7 @@ export const walletStats = {
   balance: 850,
   totalEarned: 1050,
   pendingRewards: 250,
-  weeklyProgress: 75, // percentage
+  weeklyProgress: 75,
 };
 
 export const referralStats = {
